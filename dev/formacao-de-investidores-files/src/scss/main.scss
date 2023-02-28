@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+// CORE
+@import "core/breakpoints";
+@import "core/colors";
+@import "core/typography";
+@import "core/utilities";
+
+// PARTIALS
+@import "partials/header";
+@import "partials/footer";
+
+body {
+  @apply bg-black
+  text-white;
+}
+
+.title {
+  @apply text-[2rem] lg:text-[2.25rem];
+}
+
+.semititle {
+  @apply text-[1.5rem];
+}
+
+.text {
+  @apply text-[1.125rem] lg:text-[1.3906rem];
+}
+
+.circle-decoration {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #1d1900 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 10000px;
+}
+
+.circle-decoration-active {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #6e6201 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 10000px;
+}
+
+* {
+  z-index: 2;
+}
+
+* {
+  scrollbar-width: 4px;
+  scrollbar-color: #ffd000 #a6ff00;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffd000;
+  border-radius: 999px;
+}
+
+.element {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+
+.element.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.class {
+  font-size: 2.25rem;
+}
