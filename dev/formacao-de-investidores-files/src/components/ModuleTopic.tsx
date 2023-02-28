@@ -11,7 +11,7 @@ export default function ModuleTopic(props: Props) {
   return (
     <div className="flex gap-4">
       <Image
-        src={"/img/check-icon.svg"}
+        src={"./img/check-icon.svg"}
         alt={"icone de conferido"}
         width={38.2}
         height={39}

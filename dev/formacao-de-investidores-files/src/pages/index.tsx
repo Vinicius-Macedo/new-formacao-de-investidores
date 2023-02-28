@@ -49,11 +49,11 @@ export default function Home() {
               <picture>
                 <source
                   media="(max-width:500px)"
-                  srcSet="/img/hero-photo-p.webp"
+                  srcSet="./img/hero-photo-p.webp"
                 />
                 <img
                   alt="Douglas Soave"
-                  src="/img/hero-photo.webp"
+                  src="./img/hero-photo.webp"
                   width="300"
                   height="405"
                   decoding="sync"
@@ -77,13 +77,13 @@ export default function Home() {
           </h2>
           <div className="flex flex-wrap justify-center xl:justify-between gap-16 relative">
             <IconWithText
-              imgAdress={"/img/icon-book.webp"}
+              imgAdress={"./img/icon-book.webp"}
               imgAlt={"icone de livro"}
               title={"Conteúdo"}
               text={"5 Módulos de conteúdo exclusivo"}
             />
             <IconWithText
-              imgAdress={"/img/icon-clock.webp"}
+              imgAdress={"./img/icon-clock.webp"}
               imgAlt={"icone de relógio"}
               title={"Inicio das aulas"}
               text={
@@ -91,7 +91,7 @@ export default function Home() {
               }
             />
             <IconWithText
-              imgAdress={"/img/icon-screen.webp"}
+              imgAdress={"./img/icon-screen.webp"}
               imgAlt={"icone de tela"}
               title={"Duração"}
               text={
@@ -113,49 +113,49 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap gap-15 justify-center items-center w-full m-auto">
             <CardWithImage
-              imgAdress={"/img/card-image-3.webp"}
+              imgAdress={"./img/card-image-3.webp"}
               imgAlt={"Segurando globo com olograma terrestre"}
               title={"PRINCÍPIOS FUNDAMENTAIS"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-2.webp"}
+              imgAdress={"./img/card-image-2.webp"}
               imgAlt={"Olograma de gráficos subindo"}
               title={"MONTAGEM DE CARTEIRA"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-4.webp"}
+              imgAdress={"./img/card-image-4.webp"}
               imgAlt={"Dólars com calculadora e gráficos"}
               title={"COMO INVESTIR"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-5.webp"}
+              imgAdress={"./img/card-image-5.webp"}
               imgAlt={"Copo com uma planta e moedas no lugar da terra"}
               title={"FUNDOS DE INVESTIMENTOS"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-1.webp"}
+              imgAdress={"./img/card-image-1.webp"}
               imgAlt={"Olograma de gráficos subindo"}
               title={"RENDA FIXA"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-6.webp"}
+              imgAdress={"./img/card-image-6.webp"}
               imgAlt={"Gráficos subindo"}
               title={"AÇÕES"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-7.webp"}
+              imgAdress={"./img/card-image-7.webp"}
               imgAlt={
                 "Olagrama com opções e uma pessoa apertando o botão investment"
               }
               title={"OPÇÕES"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-8.webp"}
+              imgAdress={"./img/card-image-8.webp"}
               imgAlt={"Globo terrestre olográfico com conexões"}
               title={"BDRs"}
             />
             <CardWithImage
-              imgAdress={"/img/card-image-9.webp"}
+              imgAdress={"./img/card-image-9.webp"}
               imgAlt={"celular com ilustração de casa em cima"}
               title={"FUNDOS IMOBILIÁRIOS"}
             />
@@ -226,7 +226,7 @@ export default function Home() {
         >
           {/* background: center no-repeat;
               background-size: cover;
-              background-image: url("/img/background-image.webp"); */}
+              background-image: url("./img/background-image.webp"); */}
           <h2 className="title font-extrabold text-center leading-10">
             O que vai aprender no
             <br />
@@ -318,7 +318,7 @@ export default function Home() {
           <figure className="relative flex md:max-w-[300px] lg:w-full lg:max-w-[577px] h-full max-h-[706px]">
             <div className="circle-decoration-active absolute w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px] z-[1] right-0 bottom-0 3xl:h-[650px] 3xl:w-[650px]"></div>
             <Image
-              src={"/img/douglas-footer.webp"}
+              src={"./img/douglas-footer.webp"}
               alt={"Douglas Soave Foto"}
               className={"object-contain"}
               loader={imageLoader}

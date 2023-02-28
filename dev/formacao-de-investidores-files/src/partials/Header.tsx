@@ -17,7 +17,7 @@ export function Header() {
       <div>
         <figure className="relative w-70 h-30 sm:w-100">
           <Image
-            src={"/img/monitor-do-mercado.webp"}
+            src={"./img/monitor-do-mercado.webp"}
             alt={"Logo do monitor do mercado"}
             style={{ width: "auto", height: "auto", objectFit: "contain" }}
             width={247}
