@@ -182,7 +182,7 @@ export default function Home() {
               />
               <Topics
                 number={"03"}
-                topic={"SUPER BONÛS"}
+                topic={"SUPER BÔNUS"}
                 text={
                   "Duas aulas AO VIVO com contéudos exclusivos + tira dúvidas"
                 }
