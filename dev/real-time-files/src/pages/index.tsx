@@ -224,7 +224,7 @@ export default function Home() {
                     GARANTIA DE 7 DIAS
                   </p>
                   <p className="text-[12px] sm:text-[1.125rem] text-orange font-medium">
-                    100% SEU DINEHIRO DE VOLTA
+                    100% SEU DINHEIRO DE VOLTA
                   </p>
                 </div>
                 <Image
