@@ -14,7 +14,7 @@ export default function Home() {
       <main className="bg-black overflow-hidden">
         <DefaultMarginSection className="flex flex-col justify-center items-center gap-8">
           <Image
-            src={"/img/new-formacao-de-investidores.png"}
+            src={"./img/new-formacao-de-investidores.png"}
             alt={""}
             width={0}
             height={0}
